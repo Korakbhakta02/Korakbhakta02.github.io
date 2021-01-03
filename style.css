@@ -43,5 +43,37 @@ padding: 10px 20px;
 font-weight: bold;
 text-transform: uppercase;
 }
+header{
+width: 100%;
+display:flex;}
+header div{
+position: relative;
+cursor:pointer;
+overflow:hidden;}
+header div img{
+width: 100%;
+height: 100%;
+transition: 0.4s ease-in-out;
+}
+header div p{
+position: absolute;
+bottom:o;
+width: 100%;
+height:80px;
+line-height:80px;background: rgba(0,0,0,0.8);
+color:white;
+font-size:20px;
+text-align=center;
+}
+header div a{
+text-decoration:none;
+background: blue;
+clour:white;
+font-size: 20px;
+padding: 10px 20px;
+}
+header div img:hover{
+transform: scale(1.5);}
+
 
 
